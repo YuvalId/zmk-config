@@ -37,10 +37,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&kp LSHFT  &kp F1  &kp F2  &kp F3    &kp F4  &kp F5       &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &kp RSHFT
-&kp LCTRL  &kp F6  &kp F7  &kp F8    &kp F9  &kp F10      &kp F11   &kp F12   &trans    &trans     &trans  &kp RCTRL
-                           &kp LGUI  &trans  &kp SPACE    &kp RET   &mo 3     &kp RALT
+&kp TAB    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
+&kp LSHFT  &trans        &trans        &trans        &trans        &bt BT_CLR      &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &kp RSHFT
+&kp LCTRL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans    &trans    &trans    &trans     &trans  &kp RCTRL
+                                       &kp LGUI      &trans        &kp SPACE       &kp RET   &mo 3     &kp RALT
             >;
         };
 
@@ -62,10 +62,10 @@
 
         media_layer {
             bindings = <
-&bt BT_CLR_ALL  &trans        &trans        &trans        &bt BT_PRV    &bt BT_NXT      &trans     &kp N7        &kp N8        &kp N9        &kp PRINTSCREEN  &kp BACKSPACE
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans           &trans
-&trans          &trans        &trans        &trans        &trans        &trans          &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans           &kp ESCAPE
-                                            &kp LGUI      &trans        &kp SPACE       &kp ENTER  &trans        &kp N0
+&kp F1  &kp F2  &kp F3  &kp F4    &kp F5   &kp F6       &trans     &kp N7        &kp N8        &kp N9        &kp PRINTSCREEN  &kp BACKSPACE
+&kp F7  &kp F8  &kp F9  &kp F10   &kp F11  &kp F12      &trans     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans           &trans
+&trans  &trans  &trans  &trans    &trans   &trans       &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans           &kp ESCAPE
+                        &kp LGUI  &trans   &kp SPACE    &kp ENTER  &trans        &kp N0
             >;
         };
     };
